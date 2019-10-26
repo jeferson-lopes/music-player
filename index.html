@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100|Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Music</title>
+</head>
+
+<body>
+    <div id="musicplayer">
+
+        <div id="pic">
+            <img src="img/1.png" class="imgalbum" alt="pic">
+
+        </div>
+
+        <div id="buttons">
+            <img id="buttonBackward" src="img/backward.svg" alt="pic" onclick="Backward();">
+            <img id="buttonStopPlay" src="img/play.svg" alt="pic" onclick="PlayStop();">
+            <img id="buttonForwards" src="img/forwards.svg" alt="pic" onclick="Forwards();">
+        </div>
+
+        <h2 id="titleArtist">Alceu Valença</h2>
+        <h3 id="titleMusic">La Belle de Jour</h3>
+        <div class="load"></div>
+        <audio id="player">
+            <source src="music/1.mp3" type="audio/mpeg" />
+        </audio>
+    </div>
+    <script src="javascript/script.js"></script>
+    <script src="javascript/songs.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+body {
+    height: 1000px;
+    background-color: rgb(218, 218, 218);
+    background-image: linear-gradient(#FEF2FC, #FEF4FC);
+}
+
+#musicplayer {
+    box-shadow: 0 0 2em rgb(243, 220, 255);
+    margin-top: 200px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+#pic {
+    text-align: center;
+}
+
+.imgalbum {
+    border-radius: 50%;
+    margin-top: -100px;
+    width: 200px;
+    transition: 0.5s;
+    box-shadow: 0 0 3em rgb(243, 220, 255);
+}
+
+.imgplay {
+    margin-top: -120px;
+    width: 250px;
+    transition: 0.5s;
+}
+
+.imgplay2 {
+    transform: rotate(10000deg);
+    transition: 300s;
+}
+
+#buttons {
+    top: 340px;
+    position: absolute;
+    text-align: center;
+    width: 300px;
+}
+
+#buttonBackward {
+    opacity: 0.2;
+    width: 50px;
+    transition: 0.2s;
+}
+
+#buttonBackward:hover {
+    opacity: 0.4;
+    width: 50px;
+    transition: 0.2s;
+}
+
+#buttonStopPlay {
+    opacity: 0.2;
+    width: 50px;
+    transition: 0.2s;
+}
+
+#buttonStopPlay:hover {
+    opacity: 0.4;
+    width: 50px;
+    transition: 0.2s;
+}
+
+#buttonForwards {
+    opacity: 0.2;
+    width: 50px;
+    transition: 0.2s;
+}
+
+#buttonForwards:hover {
+    opacity: 0.4;
+    width: 50px;
+    transition: 0.2s;
+}
+
+h2 {
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #483F54;
+    
+    margin-left: 20px;
+    top: 400px;
+    position: absolute;
+}
+
+h3 {
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(146, 146, 146);
+    top: 430px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.load {
+    margin-left: 10px;
+    height: 8px;
+    width: 0px;
+    background-color: black;
+    position: absolute;
+    top: 488px;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, #9F89C4, #B65E7A);
+}
+
+.loading {
+    width: 280px;
+    transition: 240s;
+}
